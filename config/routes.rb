@@ -8,4 +8,10 @@ Rails.application.routes.draw do
       resources :books #only: [:index, :show, :create, :update, :destroy]
     end
   end
+
+  namespace :api do
+    namespace :v2 do
+      resources :books, only: [:index]
+    end
+  end
 end
