@@ -1,24 +1,12 @@
-# README
+# Building Internal APIs
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
+This is the tutorial response on creating internal APIs for Mod 3 2211 BE.
 
-Things you may want to cover:
+## Configuration
+- Ruby 3.1.1
+- Rails 7.0.4
 
-* Ruby version
+## Contributors
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[**Kassandra Leyba**](https://github.com/kassandraleyba) 
