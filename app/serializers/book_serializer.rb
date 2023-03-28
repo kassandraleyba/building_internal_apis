@@ -10,5 +10,9 @@ class BookSerializer
         popularity: book.popularity
       }
     end
+    # can only serialize objects
+    # when you serialize, turning object back into a hash
+    # why serialize? to send data to the front end
+    # instead of @books = Book.all, we want to send this hash to the front end
   end
 end

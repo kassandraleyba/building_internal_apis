@@ -1,4 +1,7 @@
 class Book < ApplicationRecord
+has_many :store_books
+has many :stores, through: :store_books
+
 before_save { |book| book.popularity = calculate_popularity }
 
 private
